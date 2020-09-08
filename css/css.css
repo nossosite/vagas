@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-behavior: smooth;
+    /* background-image: url("../img/outros/frente.png"); */
+    background-repeat: no-repeat;
+    background-color:rgb(109, 4, 194) ;
+    font-family:'Helvetica Neue', sans-serif;
+    
+}
+
+.img-background:hover{
+  opacity: 3;
+  
+}
+
+.img-background {
+  opacity:0.8;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+h1 a {
+
+  
+  color: whitesmoke;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* .logo {
+position: relative;
+margin-top: 150px ;
+ */
+
+
+
+/* }
+
+.imgg {
+width:100%;
+height:;
+margin-left:;
+
+}
+.texto1 {
+color: aqua;
+
+} */
+.h2-text {
+  position: absolute;
+  top:10%;
+  text-align:center;
+
+  width:100%;
+  margin-left:100%;
+
+  
+  transform:translate(-50%, -50%);
+
+}
+
+.teste {
+  opacity:0.8;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+.clique {
+
+  position:relative;
+  margin-top: -50000x;
+  background-color:yellow;
+}
+
+.footer{
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color:#222;
+   color: white;
+   text-align: center;
+}
+
